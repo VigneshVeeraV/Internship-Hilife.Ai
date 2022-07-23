@@ -1,0 +1,13 @@
+.Example1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.Example2{
+    opacity: 0.3;
+}
+.Example3{
+    border: 3px solid black;
+}

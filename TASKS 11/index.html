@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var dp_amount=1000;
+        var interest=0.05;
+        i=0;
+        for(var year=1;year<=5;year++)
+        {
+            dp_amount += dp_amount * interest;
+            console.log("the interest amount is " + dp_amount); 
+        }
+      
+    </script>
+</body>
+</html>
